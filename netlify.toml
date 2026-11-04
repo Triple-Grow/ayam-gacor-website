@@ -1,0 +1,15 @@
+# Netlify: website statis, tanpa proses build. Folder root repo langsung dipublish.
+[build]
+  publish = "."
+
+# Foto & video jarang berubah: simpan di cache browser 7 hari.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# File offline 1-file tidak perlu masuk Google.
+[[headers]]
+  for = "/dist/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
