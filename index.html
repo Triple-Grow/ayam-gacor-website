@@ -417,6 +417,8 @@ dialog.lightbox .lb-bar{display:flex;justify-content:space-between;align-items:c
 .testi p{font-size:var(--fs-2);font-weight:600}
 .testi .who{display:flex;gap:12px;align-items:center;font-size:var(--fs-0);color:var(--ink-2)}
 .testi .who i{width:44px;height:44px;border-radius:50%;border:2.5px dashed var(--ink);background:var(--krem);flex:none}
+.testi .who i.ava{border-style:solid;background:var(--kuning);display:grid;place-items:center;font-style:normal;font-family:var(--display);font-size:1.25rem;color:var(--ink)}
+.testi__src{display:inline-block;margin-top:2px;font-size:.78rem;font-weight:700;color:var(--hijau-tua)}
 .testi--slot{background:repeating-linear-gradient(-45deg,var(--putih) 0 14px,var(--krem) 14px 28px)}
 
 /* Feature/teaser blocks */
@@ -1369,17 +1371,20 @@ dialog.lightbox--video .lb-bar{color:var(--putih);border-top-color:var(--kuning)
     </div>
   </div>
 
-  <div class="band band--krem">
+  <div class="band band--krem" id="sec-testimoni">
     <div class="wrap">
       <div class="section-head">
-        <span class="eyebrow">Testimoni mitra</span>
-        <h2 class="poster poster--putih h-lg">Cerita mitra Gacor</h2>
-        <p class="lede muted">Testimoni dari mitra dan pelanggan akan tampil di sini setelah outlet mitra pertama beroperasi.</p>
+        <span class="eyebrow">Testimoni pelanggan</span>
+        <h2 class="poster poster--putih h-lg">Kata pelanggan Gacor</h2>
+        <p class="lede muted">Ulasan asli pelanggan di Google Maps dari outlet-outlet Gacor. Udah pernah nyobain juga? Ceritain pengalamanmu dan tag kami di Instagram atau TikTok.</p>
       </div>
       <div class="grid grid-3">
-        <article class="card testi testi--slot"><div class="testi__q">“</div><p>Slot testimoni mitra Basic Partner: kutipan singkat tentang pengalaman buka outlet.</p><div class="who"><i></i><span><b>Nama mitra</b><br>Outlet &amp; kota</span></div></article>
-        <article class="card testi testi--slot"><div class="testi__q">“</div><p>Slot testimoni mitra Prime Partner: cerita membangun outlet di wilayahnya.</p><div class="who"><i></i><span><b>Nama mitra</b><br>Wilayah</span></div></article>
-        <article class="card testi testi--slot"><div class="testi__q">“</div><p>Slot ulasan pelanggan: pendapat soal rasa sambel cabe ijo dan porsinya.</p><div class="who"><i></i><span><b>Nama pelanggan</b><br>Outlet</span></div></article>
+        <article class="card testi"><div class="testi__q">“</div><p>Rasanya enak banget, sambalnya juga banyak ga pelit, kakak-kakaknya pada ramah, pelayanannya cepet banget, dan tempatnya strategis. Kemasannya effort banget… the best lah pokoknya!</p><div class="who"><i class="ava" aria-hidden="true">S</i><span><b>Selvi</b><br>Outlet Sukahati<br><span class="testi__src">Ulasan Google Maps</span></span></div></article>
+        <article class="card testi"><div class="testi__q">“</div><p>Sambel ijonya enak, dagingnya juga juicy, ditambah porsinya banyak, jukutnya juga enak garing.</p><div class="who"><i class="ava" aria-hidden="true">I</i><span><b>Ikhwalsyah P.</b><br>Outlet Sukahati<br><span class="testi__src">Ulasan Google Maps</span></span></div></article>
+        <article class="card testi"><div class="testi__q">“</div><p>Ayamnya asin dan gurihnya pas, jukutnya enak banget ditambah nasi anget, ditambah sambel makin mantap. Bukan peres, tapi asli enak banget!</p><div class="who"><i class="ava" aria-hidden="true">C</i><span><b>Charitsma R.</b><br>Outlet Mayor Oking<br><span class="testi__src">Ulasan Google Maps</span></span></div></article>
+        <article class="card testi"><div class="testi__q">“</div><p>Sambel, jukut, dan ayamnya mantep sih. Ayamnya ga keras, pedesnya berasa.</p><div class="who"><i class="ava" aria-hidden="true">M</i><span><b>Muhammad T. F.</b><br>Outlet Mayor Oking<br><span class="testi__src">Ulasan Google Maps</span></span></div></article>
+        <article class="card testi"><div class="testi__q">“</div><p>Enak banget ayam dan sambelnya, nampol! Rekomen deh buat kalian yang mau makan enak tapi murah meriah.</p><div class="who"><i class="ava" aria-hidden="true">N</i><span><b>Novita M.</b><br>Outlet Yasmin<br><span class="testi__src">Ulasan Google Maps</span></span></div></article>
+        <article class="card testi"><div class="testi__q">“</div><p>Sambelnya mantep pedesnya, jukutnya gurih, ayamnya juicy. Pas pokoknya!</p><div class="who"><i class="ava" aria-hidden="true">T</i><span><b>Titi A.</b><br>Outlet Telukjambe<br><span class="testi__src">Ulasan Google Maps</span></span></div></article>
       </div>
       <div class="btn-row mt-l">
         <a class="btn" href="https://www.instagram.com/ayamgacor.indonesia/" target="_blank" rel="noopener">Instagram @ayamgacor.indonesia</a>

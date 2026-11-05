@@ -17,7 +17,7 @@ Satu file `index.html` dengan 6 tampilan (pindah tampilan lewat hash URL):
 | Menu | `#menu` | Menu utama, paket + nasi, ala carte, add on, Gacor Kids |
 | Kemitraan | `#kemitraan` | Paket Basic (Rp65 jt) & Prime (Rp390 jt), tahapan, simulasi BEP, FAQ, form calon mitra |
 | Outlet | `#outlet` | 4 outlet aktif dengan pencarian, filter wilayah, tombol rute Google Maps & WhatsApp |
-| Galeri | `#galeri` | Video, foto outlet & menu, video food review (filter "Food Review"), slot testimoni |
+| Galeri | `#galeri` | Video, foto outlet & menu, video food review (filter "Food Review"). section "Kata pelanggan Gacor" (6 ulasan Google Maps) |
 
 ## Animasi
 
@@ -105,7 +105,8 @@ Sumber: dokumen *LOKASI OUTLET 221026* dari tim Ayam Gacor.
 - Sudah siap tayang di domain utama: `noindex` sudah dihapus, ada `canonical` + Open Graph ke https://ayamgacorindonesia.com/, `robots.txt`, dan `sitemap.xml`.
 - Kalau nanti domain berubah, ganti `ayamgacorindonesia.com` di `index.html` (canonical, og:url, og:image), `robots.txt`, dan `sitemap.xml`.
 - Form calon mitra saat ini meneruskan data ke WhatsApp hotline. Integrasi ke email + Google Sheets belum dipasang.
-- Masih perlu materi asli: testimoni mitra/pelanggan. Reel di `assets/video/reel.mp4` dibuat dari foto resmi tim Ayam Gacor; ganti dengan video produksi kalau sudah ada.
+- Section testimoni (Galeri, `id="sec-testimoni"`) berisi 6 ulasan asli Google Maps dari folder "Review & Testimoni" tim Ayam Gacor (Nov 2026): Selvi & Ikhwalsyah P. (Sukahati), Charitsma R. & Muhammad T. F. (Mayor Oking), Novita M. (Yasmin), Titi A. (Telukjambe). Nama disingkat. Untuk menambah: salin satu `<article class="card testi">`.
+- Masih perlu materi asli: testimoni mitra (setelah ada yang closing). Reel di `assets/video/reel.mp4` dibuat dari foto resmi tim Ayam Gacor; ganti dengan video produksi kalau sudah ada.
 - Belum ada tracking Google Analytics 4 / Meta Pixel. Setelah tayang, daftarkan domain di Google Search Console dan submit `sitemap.xml`.
 - Semua tombol "Pesan via WA" di kartu outlet masih ke nomor order pusat (0813-9631-093). Kalau tiap cabang punya nomor sendiri, tambahkan field nomor WA di tiap outlet pada `OUTLETS`, lalu pakai field itu (bukan `WA_ORDER`) saat membuat link "Pesan via WA".
 - Proyeksi BEP skenario rendah di proposal tertulis 14,5 bulan; hitungan website (Rp65 jt ÷ Rp4,5 jt) menampilkan 14,4 bulan. Samakan angka di proposal kalau perlu.
