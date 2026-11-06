@@ -14,7 +14,7 @@ Satu file `index.html` dengan 6 tampilan (pindah tampilan lewat hash URL):
 |---|---|---|
 | Beranda | `#beranda` | Hero, video reel, keunggulan, menu andalan, video food review, teaser kemitraan & outlet |
 | Tentang Kami | `#tentang` | Filosofi, arti nama & warna brand, visi-misi, The Journey 2026–2030 |
-| Menu | `#menu` | Menu utama, paket + nasi, ala carte, add on, Gacor Kids |
+| Menu | `#menu` | Menu utama, paket + nasi, Paket Komplit & MBG + minuman, ala carte, add on, Gacor Kids |
 | Kemitraan | `#kemitraan` | Paket Basic (Rp65 jt) & Prime (Rp390 jt), tahapan, simulasi BEP, FAQ, form calon mitra |
 | Outlet | `#outlet` | 4 outlet aktif dengan pencarian, filter wilayah, tombol rute Google Maps & WhatsApp |
 | Galeri | `#galeri` | Video, foto outlet & menu, video food review (filter "Food Review"). section "Kata pelanggan Gacor" (6 ulasan Google Maps) |
@@ -88,7 +88,7 @@ Sumber: dokumen *LOKASI OUTLET 221026* dari tim Ayam Gacor.
 ## Sumber konten
 
 - **Business Proposal Ayam Gacor:** paket kemitraan, tahapan, proyeksi keuangan, The Journey 2026–2030.
-- **Pricelist Ayam Gacor Indonesia (biasa & Kids) + folder foto "01. Website" dari tim Ayam Gacor (Okt 2026):** harga menu, ala carte, add on, foto menu (paket + nasi, ala carte, add on) dan foto 4 outlet.
+- **Pricelist Ayam Gacor Indonesia Nov 2026 (biasa & Kids):** semua harga menu. Foto menu & outlet dari folder "01. Website" tim Ayam Gacor (Okt 2026).
 - **Logo Guideline Ayam Gacor 2026:** logo, maskot, palet warna (#EE2A24, #F68C1F, #F9ED23, #A1CD3A, #569D44, #026C44, #FFFFFF), filosofi brand.
 - **Kontak:** Hotline Franchise 0823 1972 7767, WhatsApp order 0813-9631-093, Instagram @ayamgacor.indonesia, TikTok @ayamgacorindonesia.
 
@@ -111,9 +111,12 @@ Sumber: dokumen *LOKASI OUTLET 221026* dari tim Ayam Gacor.
 - Semua tombol "Pesan via WA" di kartu outlet masih ke nomor order pusat (0813-9631-093). Kalau tiap cabang punya nomor sendiri, tambahkan field nomor WA di tiap outlet pada `OUTLETS`, lalu pakai field itu (bukan `WA_ORDER`) saat membuat link "Pesan via WA".
 - Proyeksi BEP skenario rendah di proposal tertulis 14,5 bulan; hitungan website (Rp65 jt ÷ Rp4,5 jt) menampilkan 14,4 bulan. Samakan angka di proposal kalau perlu.
 
-## Belum ditampilkan di website
+## Harga (pricelist Nov 2026)
 
-Ada di pricelist terbaru tapi belum dibuat section-nya: Paket Komplit (Cumi 32K, Ayam 33K), Paket MBG (MBG 3 55K, MBG 4 79K, MBG 5 109K), Paket Duo (Ayam 54K, Daging 70K), dan minuman (Frestea 7K, Air Mineral 5K).
+- Ayam Gacor Cabe Ijo 21K (hero Beranda, Menu Andalan, Menu Utama, Ala Carte). Gambar preview link `assets/img/og-image.jpg` ikut menampilkan 21K.
+- Yakitori sekarang hanya add on (15K); paket & ala carte Yakitori dihapus. Foto Yakitori masih ada di Galeri.
+- Section baru di Menu: Paket Komplit (Cumi 37K, Ayam 38K), Paket MBG (MBG 3 63K, MBG 4 90K, MBG 5 125K), minuman (Frestea 7K, Air Mineral 5K).
+- Simulasi BEP tetap memakai asumsi proposal (rata-rata Rp23.000/box untuk estimasi jumlah box), tidak ikut harga menu.
 
 ## Deploy
 

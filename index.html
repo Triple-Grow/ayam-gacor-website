@@ -211,6 +211,10 @@ ul{margin:0;padding:0}
 .price-list .pr{font-family:var(--display);font-size:1.3rem;color:var(--merah)}
 .addon-row{display:flex;flex-wrap:wrap;gap:10px}
 .addon-row .chip{font-size:var(--fs-1);padding:.5em 1em}
+.addon-row{align-items:center}
+.dish--text{grid-template-rows:1fr;background:var(--putih)}
+.dish--text .dish__body{padding:20px 22px 22px;gap:10px}
+.dish--text .harga{white-space:nowrap}
 
 /* Kemitraan */
 .facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border:3px solid var(--ink);border-radius:var(--r);overflow:hidden;background:var(--putih);color:var(--ink);box-shadow:var(--shadow)}
@@ -676,7 +680,7 @@ dialog.lightbox--video .lb-bar{color:var(--putih);border-top-color:var(--kuning)
         <button class="hero__plate" id="plate" type="button" aria-label="Klik ayamnya"><img src="assets/img/ayam-cabeijo.webp" alt="Ayam Gacor Cabe Ijo" width="743" height="544"></button>
         <img class="hero__stiker" src="assets/img/stiker-nampol.webp" alt="" width="320" height="346">
         <img class="hero__mascot" src="assets/img/mascot-paha.webp" alt="" width="560" height="614">
-        <div class="price-burst"><small>Ayam Gacor<br>Cabe Ijo</small><b>19K</b></div>
+        <div class="price-burst"><small>Ayam Gacor<br>Cabe Ijo</small><b>21K</b></div>
       </div>
     </div>
   </div>
@@ -726,14 +730,14 @@ dialog.lightbox--video .lb-bar{color:var(--putih);border-top-color:var(--kuning)
     <div class="wrap">
       <div class="section-head">
         <img src="assets/img/menu-gacor.webp" alt="Menu si Gacor" width="360" height="184" style="width:220px">
-        <h2 class="poster h-lg">Menu andalan, mulai 15K</h2>
+        <h2 class="poster h-lg">Menu andalan, mulai 16K</h2>
         <p class="lede" style="color:#e3f3e9">Semua paket sudah termasuk nasi, jukut, dan sambal.</p>
       </div>
       <div class="grid grid-4">
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/menu-ayam-cabeijo.webp" alt="Ayam Gacor Cabe Ijo" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Ayam Gacor Cabe Ijo</h3><span class="harga num">19<small>K</small></span></div><p>Menu utama, best seller</p></div></article>
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-ayam.webp" alt="Paket Ayam Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Ayam Gacor + Nasi</h3><span class="harga num">23<small>K</small></span></div><p>Paha/dada + nasi + jukut + sambal</p></div></article>
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-cumi.webp" alt="Paket Cumi Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Cumi Gacor + Nasi</h3><span class="harga num">22<small>K</small></span></div><p>Cumi + nasi + jukut + sambal</p></div></article>
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-daging.webp" alt="Paket Daging Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Daging Gacor + Nasi</h3><span class="harga num">32<small>K</small></span></div><p>Daging sapi + nasi + jukut + sambal</p></div></article>
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/menu-ayam-cabeijo.webp" alt="Ayam Gacor Cabe Ijo" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Ayam Gacor Cabe Ijo</h3><span class="harga num">21<small>K</small></span></div><p>Menu utama, best seller</p></div></article>
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-ayam.webp" alt="Paket Ayam Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Ayam Gacor + Nasi</h3><span class="harga num">26<small>K</small></span></div><p>Paha/dada + nasi + jukut + sambal</p></div></article>
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-cumi.webp" alt="Paket Cumi Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Cumi Gacor + Nasi</h3><span class="harga num">25<small>K</small></span></div><p>Cumi + nasi + jukut + sambal</p></div></article>
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-daging.webp" alt="Paket Daging Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Daging Gacor + Nasi</h3><span class="harga num">35<small>K</small></span></div><p>Daging sapi + nasi + jukut + sambal</p></div></article>
       </div>
       <div class="mt-l"><a class="btn btn--lg" href="#menu" data-go="menu">Lihat semua menu <svg><use href="#i-arrow"/></svg></a></div>
     </div>
@@ -932,7 +936,7 @@ dialog.lightbox--video .lb-bar{color:var(--putih);border-top-color:var(--kuning)
         <span class="eyebrow eyebrow--putih">Menu Utama · Best Seller</span>
         <h2 class="poster h-lg">Ayam Gacor Cabe Ijo</h2>
         <p class="lede" style="color:#fff3ee">Ayam goreng gurih berbalut sambel cabe ijo segar yang pedasnya nampol. Ini alasan orang balik lagi.</p>
-        <div><span class="harga num" style="font-size:3rem;display:inline-block">19<small>K</small></span></div>
+        <div><span class="harga num" style="font-size:3rem;display:inline-block">21<small>K</small></span></div>
       </div>
     </div>
   </div>
@@ -943,15 +947,34 @@ dialog.lightbox--video .lb-bar{color:var(--putih);border-top-color:var(--kuning)
         <span class="eyebrow">Package + Nasi</span>
         <h2 class="poster poster--merah h-lg">Paket kenyang</h2>
       </div>
-      <div class="grid grid-4">
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-ayam.webp" alt="Paket Ayam Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Ayam Gacor + Nasi</h3><span class="harga num">23<small>K</small></span></div><p>Ayam goreng (paha/dada) + nasi + jukut + sambal</p></div></article>
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-daging.webp" alt="Paket Daging Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Daging Gacor + Nasi</h3><span class="harga num">32<small>K</small></span></div><p>Daging sapi + nasi + jukut + sambal</p></div></article>
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-yakitori.webp" alt="Paket Yakitori Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Yakitori Gacor + Nasi</h3><span class="harga num">33<small>K</small></span></div><p>Yakitori + nasi + jukut + sambal matah</p></div></article>
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-cumi.webp" alt="Paket Cumi Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Cumi Gacor + Nasi</h3><span class="harga num">22<small>K</small></span></div><p>Cumi + nasi + jukut + sambal</p></div></article>
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-karaage.webp" alt="Paket Karaage Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Karaage Gacor + Nasi</h3><span class="harga num">24<small>K</small></span></div><p>Ayam karaage + nasi + jukut + sambal</p></div></article>
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-ikan.webp" alt="Paket Ikan Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Ikan Gacor + Nasi</h3><span class="harga num">31<small>K</small></span></div><p>Ikan nila + nasi + jukut + sambal</p></div></article>
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-telur.webp" alt="Paket Telur + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Telur + Nasi</h3><span class="harga num">15<small>K</small></span></div><p>Telur dadar + nasi + jukut + sambal</p><p class="dish__alt">Telur Gacor + Nasi <b class="num">18K</b></p></div></article>
+      <div class="grid grid-3">
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-ayam.webp" alt="Paket Ayam Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Ayam Gacor + Nasi</h3><span class="harga num">26<small>K</small></span></div><p>Ayam goreng (paha/dada) + nasi + jukut + sambal</p></div></article>
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-daging.webp" alt="Paket Daging Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Daging Gacor + Nasi</h3><span class="harga num">35<small>K</small></span></div><p>Daging sapi + nasi + jukut + sambal</p></div></article>
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-cumi.webp" alt="Paket Cumi Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Cumi Gacor + Nasi</h3><span class="harga num">25<small>K</small></span></div><p>Cumi + nasi + jukut + sambal</p></div></article>
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-karaage.webp" alt="Paket Karaage Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Karaage Gacor + Nasi</h3><span class="harga num">29<small>K</small></span></div><p>Ayam karaage + nasi + jukut + sambal</p></div></article>
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-ikan.webp" alt="Paket Ikan Gacor + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Ikan Gacor + Nasi</h3><span class="harga num">35<small>K</small></span></div><p>Ikan nila + nasi + jukut + sambal</p></div></article>
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/paket-telur.webp" alt="Paket Telur + Nasi" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Telur + Nasi</h3><span class="harga num">17<small>K</small></span></div><p>Telur dadar + nasi + jukut + sambal</p><p class="dish__alt">Telur Gacor + Nasi <b class="num">20K</b></p></div></article>
       </div>
+    </div>
+  </div>
+
+  <div class="band band--kuning">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Paket Komplit &amp; Paket MBG</span>
+        <h2 class="poster poster--merah h-lg">Sekalian lengkap</h2>
+        <p class="lede">Paket Komplit sudah termasuk minum. Paket MBG buat makan rame-rame.</p>
+      </div>
+      <div class="grid grid-2">
+        <article class="card dish dish--text"><div class="dish__body"><div class="dish__top"><h3>Paket Gacor Komplit Cumi</h3><span class="harga num">37<small>K</small></span></div><p>Nasi + cumi + telur + jukut + sambal + minum</p></div></article>
+        <article class="card dish dish--text"><div class="dish__body"><div class="dish__top"><h3>Paket Gacor Komplit Ayam</h3><span class="harga num">38<small>K</small></span></div><p>Nasi + ayam (paha/dada) + telur + jukut + sambal + minum</p></div></article>
+      </div>
+      <div class="grid grid-3 mt-l">
+        <article class="card dish dish--text"><div class="dish__body"><div class="dish__top"><h3>MBG 3</h3><span class="harga num">63<small>K</small></span></div><p>1 telur ori + 1 ayam gacor + 1 cumi gacor + 3 nasi + 2 sambel ijo + 3 jukut</p></div></article>
+        <article class="card dish dish--text"><div class="dish__body"><div class="dish__top"><h3>MBG 4</h3><span class="harga num">90<small>K</small></span></div><p>1 telur ori + 1 ayam gacor + 1 cumi gacor + 1 karaage gacor + 4 nasi + 3 sambel ijo + 4 jukut</p></div></article>
+        <article class="card dish dish--text"><div class="dish__body"><div class="dish__top"><h3>MBG 5</h3><span class="harga num">125<small>K</small></span></div><p>1 telur ori + 1 ayam gacor + 1 cumi gacor + 1 karaage gacor + 1 daging gacor + 5 nasi + 3 sambel ijo + 5 jukut</p></div></article>
+      </div>
+      <div class="addon-row num mt-l"><span class="eyebrow">Minuman</span><span class="chip">Frestea <b>7K</b></span><span class="chip">Air Mineral <b>5K</b></span></div>
     </div>
   </div>
 
@@ -962,29 +985,29 @@ dialog.lightbox--video .lb-bar{color:var(--putih);border-top-color:var(--kuning)
         <h2 class="poster poster--putih h-lg">Lauk tanpa nasi</h2>
       </div>
       <div class="grid grid-3">
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/ala-cumi.webp" alt="Cumi Gacor" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Cumi Gacor</h3><span class="harga num">18<small>K</small></span></div><p>Cumi dengan sambel ijo</p></div></article>
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/ala-daging.webp" alt="Daging Gacor" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Daging Gacor</h3><span class="harga num">28<small>K</small></span></div><p>Daging sapi dengan sambel ijo</p></div></article>
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/ala-karaage.webp" alt="Karaage Gacor" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Karaage Gacor</h3><span class="harga num">20<small>K</small></span></div><p>Ayam karaage renyah</p></div></article>
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/ala-yakitori.webp" alt="Yakitori Gacor" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Yakitori Gacor</h3><span class="harga num">29<small>K</small></span></div><p>Sate yakitori + sambal matah</p></div></article>
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/ala-ikan.webp" alt="Ikan Gacor" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Ikan Gacor</h3><span class="harga num">27<small>K</small></span></div><p>Ikan nila goreng</p></div></article>
-        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/ala-telur.webp" alt="Telur Gacor" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Telur Gacor</h3><span class="harga num">13<small>K</small></span></div><p>Telur dadar dengan sambel ijo</p><p class="dish__alt">Telur (ori) <b class="num">10K</b></p></div></article>
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/menu-ayam-cabeijo.webp" alt="Ayam Gacor Cabe Ijo" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Ayam Gacor Cabe Ijo</h3><span class="harga num">21<small>K</small></span></div><p>Ayam goreng dengan sambel cabe ijo, best seller</p></div></article>
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/ala-cumi.webp" alt="Cumi Gacor" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Cumi Gacor</h3><span class="harga num">20<small>K</small></span></div><p>Cumi dengan sambel ijo</p></div></article>
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/ala-daging.webp" alt="Daging Gacor" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Daging Gacor</h3><span class="harga num">30<small>K</small></span></div><p>Daging sapi dengan sambel ijo</p></div></article>
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/ala-karaage.webp" alt="Karaage Gacor" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Karaage Gacor</h3><span class="harga num">24<small>K</small></span></div><p>Ayam karaage renyah</p></div></article>
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/ala-ikan.webp" alt="Ikan Gacor" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Ikan Gacor</h3><span class="harga num">29<small>K</small></span></div><p>Ikan nila goreng</p></div></article>
+        <article class="card dish dish--photo"><div class="dish__img"><img src="assets/img/ala-telur.webp" alt="Telur Gacor" width="720" height="900" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Telur Gacor</h3><span class="harga num">15<small>K</small></span></div><p>Telur dadar dengan sambel ijo</p><p class="dish__alt">Telur (ori) <b class="num">12K</b></p></div></article>
       </div>
       <div class="addon-block mt-l">
         <div class="stack">
           <span class="eyebrow eyebrow--hijau">Add On+</span>
           <h2 class="poster poster--hijau h-lg">Tambah biar makin gacor</h2>
           <div class="addon-row num">
-            <span class="chip">Nasi <b>5K</b></span><span class="chip">Sambal all variant <b>5K</b></span><span class="chip">Jukut <b>10K</b></span>
-            <span class="chip">Sate Ceker <b>5K</b></span><span class="chip">Snack Gacor <b>12K</b></span><span class="chip">Katsu Gacor <b>10K</b></span>
+            <span class="chip">Nasi <b>6K</b></span><span class="chip">Sambal geprek / cajo / goreng <b>6K</b></span><span class="chip">Sambal matah <b>8K</b></span><span class="chip">Jukut <b>10K</b></span>
+            <span class="chip">Sate Ceker <b>5K</b></span><span class="chip">Snack Gacor <b>13K</b></span><span class="chip">Katsu Gacor <b>10K</b></span><span class="chip">Yakitori <b>15K</b></span><span class="chip">Nugget <b>12K</b></span>
             <span class="chip">Mozarella <b>7K</b> · <b>14K</b> · <b>27K</b> <small>(S/M/L)</small></span>
           </div>
         </div>
         <div class="addon-grid">
           <figure class="addon addon--feature"><img src="assets/img/addon-mozarella.webp" alt="Daging Gacor dengan topping mozarella leleh" width="720" height="900" loading="lazy"><span class="addon__tag">Favorit</span><figcaption><span class="addon__title">Topping Mozarella</span><span class="addon__sizes num"><b>S 7K</b><b>M 14K</b><b>L 27K</b></span><small>Foto: Daging Gacor + Mozarella</small></figcaption></figure>
-          <figure class="addon"><img src="assets/img/addon-sambal.webp" alt="Sambal all variant" width="400" height="500" loading="lazy"><figcaption>Sambal all variant <b class="num">5K</b></figcaption></figure>
+          <figure class="addon"><img src="assets/img/addon-sambal.webp" alt="Sambal all variant" width="400" height="500" loading="lazy"><figcaption>Sambal geprek / cajo / goreng <b class="num">6K</b></figcaption></figure>
           <figure class="addon"><img src="assets/img/addon-jukut.webp" alt="Jukut" width="400" height="500" loading="lazy"><figcaption>Jukut <b class="num">10K</b></figcaption></figure>
           <figure class="addon"><img src="assets/img/addon-sate-ceker.webp" alt="Sate Ceker" width="400" height="500" loading="lazy"><figcaption>Sate Ceker <b class="num">5K</b></figcaption></figure>
-          <figure class="addon"><img src="assets/img/addon-snack.webp" alt="Snack Gacor" width="400" height="500" loading="lazy"><figcaption>Snack Gacor <b class="num">12K</b></figcaption></figure>
+          <figure class="addon"><img src="assets/img/addon-snack.webp" alt="Snack Gacor" width="400" height="500" loading="lazy"><figcaption>Snack Gacor <b class="num">13K</b></figcaption></figure>
         </div>
       </div>
     </div>
@@ -998,8 +1021,8 @@ dialog.lightbox--video .lb-bar{color:var(--putih);border-top-color:var(--kuning)
       </div>
       <div class="grid grid-3">
         <article class="card dish"><div class="dish__img"><img src="assets/img/kids-katsu.webp" alt="" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Gacor Kids Katsu</h3><span class="harga num">16<small>K</small></span></div><p>Nasi + chicken katsu + sauce</p></div></article>
-        <article class="card dish"><div class="dish__img"><img src="assets/img/kids-karaage.webp" alt="" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Gacor Kids Karaage</h3><span class="harga num">19<small>K</small></span></div><p>Nasi + chicken karaage + sauce</p></div></article>
-        <article class="card dish"><div class="dish__img"><img src="assets/img/kids-nugget.webp" alt="" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Gacor Kids Nugget</h3><span class="harga num">15<small>K</small></span></div><p>Nasi + chicken nugget + sauce</p></div></article>
+        <article class="card dish"><div class="dish__img"><img src="assets/img/kids-karaage.webp" alt="" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Gacor Kids Karaage</h3><span class="harga num">20<small>K</small></span></div><p>Nasi + chicken karaage + sauce</p></div></article>
+        <article class="card dish"><div class="dish__img"><img src="assets/img/kids-nugget.webp" alt="" loading="lazy"></div><div class="dish__body"><div class="dish__top"><h3>Gacor Kids Nugget</h3><span class="harga num">17<small>K</small></span></div><p>Nasi + chicken nugget + sauce</p></div></article>
       </div>
       <p class="small mt-l" style="color:#cfe9da">Harga dapat berubah sewaktu-waktu dan bisa berbeda antar outlet.</p>
     </div>
